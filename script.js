@@ -1,3 +1,4 @@
+script.css
 const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
@@ -6,7 +7,15 @@ const textoResultado = document.querySelector(".texto-resultado");
 const botaoJogarNovamente = document.querySelector(".novamente-btn");
 const botaoIniciar = document.querySelector(".iniciar-btn");
 const telaInicial = document.querySelector(".tela-inicial");
-
+// código omitido
+enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que… alternativas: [
+  {
+      texto: "Isso é assustador!",
+      afirmacao: "No início ficou com medo do que essa tecnologia pode fazer.
+  {
+      texto: "Isso é maravilhoso!",
+      afirmacao: "Quis saber como usar IA no seu dia a dia."
+  }
 const perguntas = [
     {
       enunciado:
